@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const encodedMessage = encodeURIComponent(whatsappMessage);
             
             // Open WhatsApp
-            window.open(`https://wa.me/01166494513?text=${encodedMessage}`, '_blank');
+            window.open(`https://wa.me/01166494513?text=${encodedMessage}`, '_blank', 'noopener,noreferrer');
         });
     }
     
